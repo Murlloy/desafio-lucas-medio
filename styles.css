@@ -43,7 +43,6 @@ main {
     display: flex;
     position: relative;
     justify-content: start;
-    width: 100vw;
     height: 1000px;
     text-align: start;
     flex-direction: column;
