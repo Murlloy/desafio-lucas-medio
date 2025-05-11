@@ -112,7 +112,6 @@ main button:hover {
     padding: 210px 5%;
     align-items: center;
     gap: 90px;
-
 }
 
 .portfolio-imagens {
@@ -123,6 +122,10 @@ main button:hover {
     width: 100%;
     max-width: 1200px;
     row-gap: 40px;
+}
+
+.portfolio-imagens img {
+    max-width: 100%;
 }
 
 
@@ -163,8 +166,12 @@ main button:hover {
 }
 
 .about article p {
-    font-size: 40px;
-    max-width: 800px;
+    font-size: 1.5rem;
+    max-width: 50%;
+}
+
+.about article img {
+    max-width: 50%;
 }
 
 .testemunha {
@@ -194,7 +201,6 @@ main button:hover {
 
 .testemunha-item {
     display: flex;
-    height: 310px;
     background-color: #181818;
     max-width: 900px;
 }
@@ -203,12 +209,12 @@ main button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 25px;
-    gap: 30px;
+    padding: 4%;
+    gap: 5%;
 }
 
 .testemunha-item h1 {
-    font-size: 44px;
+    font-size: 35px;
 }
 
 .testemunha-item img {
@@ -220,6 +226,7 @@ main button:hover {
     flex-direction: column;
     height: 84%;
     width: 310px;
+    gap: 25px;
 
     & h1 {
         font-size: 40px;
